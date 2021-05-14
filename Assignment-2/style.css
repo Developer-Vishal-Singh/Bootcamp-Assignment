@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+    font-size: 45px;
+}
+
+div{
+    width: 100px;
+    height: 40px;
+    border: 1px solid grey;
+    background-color: grey;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 34px;
+    margin-top:25px ;
+   
+} 
+div {
+  position: sticky;
+  top: 50px;
+}
+
+
+section{
+    border: 1px solid rgb(68, 63, 63);
+    margin: 20px auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+h6{
+    border: 0.5px solid black;
+    padding: 10px;
+}
