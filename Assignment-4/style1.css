@@ -1,0 +1,22 @@
+#container{
+    width: 100vw;
+    height: 50vh;
+    animation-name:swing ;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+@keyframes swing {
+    0%{
+        background-image: url(https://images.unsplash.com/photo-1567928513899-997d98489fbd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhlYWRwaG9uZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(https://images.unsplash.com/photo-1617203442202-5a1219d37247?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGhlYWRwaG9uZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(https://images.unsplash.com/photo-1599605571400-84c8410dc889?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+        background-size: cover;
+    }
+}

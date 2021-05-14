@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100vw;
+    min-height: 80px;
+    background-color: rgb(66, 62, 62);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(113, 180, 12);
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+li:nth-of-type(4){
+    font-weight: 700;
+    color: rgb(114, 160, 33);
+}
+ul{
+    display: flex;
+    width: 690px;
+    list-style: none;
+    justify-content: space-around;
+    color: white;
+}
+@media screen and (max-width:520px) {
+    nav,ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
